@@ -46,19 +46,11 @@ final class StaticWordLibrary extends WordLibrary {
         "frikadelle",
         "durum",
         "suppe",
-        "abstraction",
-        "ambiguous",
-        "arithmetic",
-"nighttime",
-"cars"
+        
 };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
-        "batsartcoin",
-        "maibuguos",
-        "ratimhteci",
-        "nitightme",
-        "racs",
+      
         "dam",
         "ylilngk",
         "lasat",

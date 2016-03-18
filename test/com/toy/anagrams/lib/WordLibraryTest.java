@@ -71,11 +71,15 @@ public class WordLibraryTest extends TestCase {
      * @return true if the scrambledWord is correct anagram of clearWord
      */
     private boolean isAnagram(String clearWord, String scrambledWord) {
+        boolean isAnagram = false;
         char[] clearArray = clearWord.toCharArray();
         char[] scrambledArray = scrambledWord.toCharArray();
         Arrays.sort(clearArray);
         Arrays.sort(scrambledArray);
-        return Arrays.equals(clearArray, scrambledArray);
+        if(Arrays.equals(clearArray, scrambledArray)) {
+            isAnagram = true;
+        }
+        return isAnagram;
     }
 
 }
