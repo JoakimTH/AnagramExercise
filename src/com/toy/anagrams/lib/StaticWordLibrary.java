@@ -36,6 +36,16 @@ package com.toy.anagrams.lib;
 final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] WORD_LIST = {
+        "mad",
+        "kylling",
+        "salat",
+        "dressing",
+        "pasta",
+        "kød",
+        "lasagne",
+        "frikadelle",
+        "durum",
+        "suppe",
         "abstraction",
         "ambiguous",
         "arithmetic",
@@ -48,10 +58,20 @@ final class StaticWordLibrary extends WordLibrary {
         "maibuguos",
         "ratimhteci",
         "nitightme",
-        "racs"
-      
+        "racs",
+        "dam",
+        "ylilngk",
+        "lasat",
+        "redssnig",
+        "astap",
+        "døk",
+        "aagsnle",
+        "rikadellef",
+        "udurm",
+        "uespp"
+
     };
-    
+
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
     /**
@@ -62,6 +82,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Gets the word at a given index.
+     *
      * @param idx index of required word
      * @return word at that index in its natural form
      */
@@ -71,6 +92,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Gets the word at a given index in its scrambled form.
+     *
      * @param idx index of required word
      * @return word at that index in its scrambled form
      */
@@ -80,6 +102,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Gets the number of words in the library.
+     *
      * @return the total number of plain/scrambled word pairs in the library
      */
     public int getSize() {
@@ -88,6 +111,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Checks whether a user's guess for a word at the given index is correct.
+     *
      * @param idx index of the word guessed
      * @param userGuess the user's guess for the actual word
      * @return true if the guess was correct; false otherwise
