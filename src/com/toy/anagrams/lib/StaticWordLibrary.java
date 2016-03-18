@@ -48,7 +48,7 @@ final class StaticWordLibrary extends WordLibrary {
         "maibuguos",
         "ratimhteci",
         "nitightme",
-        "rcas"
+        "racs"
       
     };
     
