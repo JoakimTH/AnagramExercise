@@ -28,7 +28,6 @@
  */
 
 /* Anagram Game Application */
-
 package com.toy.anagrams.lib;
 
 /**
@@ -39,12 +38,17 @@ final class StaticWordLibrary extends WordLibrary {
     private static final String[] WORD_LIST = {
         "abstraction",
         "ambiguous",
-        "arithmetic"};
+        "arithmetic",
+"nighttime",
+"cars"
+};
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "batsartcoin",
         "maibuguos",
         "ratimhteci",
+        "nitightme",
+        "rcas"
       
     };
     
